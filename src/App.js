@@ -9,7 +9,7 @@ import pause from "./img/circle-pause-regular-full.svg";
 
 import one from "./img/birthday.png";
 import birthdayPhoto from "./img/three.jpg";
-import restaurant from "./img/L_height.webp";
+
 import cake from "./img/gifts.jpg";
 import footerPhoto from "./img/cake_image.png";
 
