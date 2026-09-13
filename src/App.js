@@ -143,6 +143,7 @@ function App() {
     const month = 8; // September
 
     const firstDay = new Date(year, month, 1).getDay();
+
     const daysInMonth = new Date(
         year,
         month + 1,
@@ -169,7 +170,7 @@ function App() {
    ============================================================
    ANIMATION
    ============================================================
-
+  */
 
   const imgVariant = {
     hidden: {
@@ -204,9 +205,11 @@ function App() {
 
         <AnimatePresence>
           {showIntro ? (
-              /* =====================================================
-                 INTRO
-              ===================================================== */
+              /*
+               =====================================================
+               INTRO
+               =====================================================
+              */
 
               <motion.div
                   className={`intro ${
@@ -241,9 +244,11 @@ function App() {
                 />
               </motion.div>
           ) : (
-              /* =====================================================
-                 MAIN APP
-              ===================================================== */
+              /*
+               =====================================================
+               MAIN APP
+               =====================================================
+              */
 
               <div className="app">
 
@@ -258,10 +263,6 @@ function App() {
                   <div className="hero_glow" />
 
                   <div className="hero_content">
-
-
-
-
 
                     {/* MUSIC */}
 
@@ -281,7 +282,6 @@ function App() {
 
                   </div>
                 </section>
-
 
                 {/* ==================================================
                 TAKLIF
@@ -322,17 +322,21 @@ function App() {
                     Assalomu alaykum!
                     <br />
                     <br />
+
                     Hurmatli mehmonimiz!
                     <br />
                     <br />
+
                     Sizni Nargiza opa tug‘ilgan kunlari
                     munosabati bilan
                     <strong> 15 sentabr 2026 </strong>
                     kuni
                     <br />
+
                     <strong>Crystal Garden</strong>
                     restoraniga
                     <br />
+
                     samimiy davramizga taklif qilamiz.
                   </p>
 
@@ -349,7 +353,6 @@ function App() {
                   </motion.div>
 
                 </motion.section>
-
 
                 {/* ==================================================
                 COUNTDOWN
@@ -423,7 +426,6 @@ function App() {
                   </div>
 
                 </motion.section>
-
 
                 {/* ==================================================
                 KALENDAR
@@ -514,7 +516,6 @@ function App() {
 
                 </motion.section>
 
-
                 {/* ==================================================
                 LOKATSIYA
             ================================================== */}
@@ -574,7 +575,6 @@ function App() {
 
                   </div>
 
-
                   <iframe
                       title="Crystal Garden xaritasi"
                       src="https://www.google.com/maps?q=Crystal%20Garden%20Restaurant%2C%20Amir%20Temur%20Avenue%2015%2C%20Tashkent&output=embed"
@@ -592,7 +592,6 @@ function App() {
                   </a>
 
                 </motion.section>
-
 
                 {/* ==================================================
                 DASTUR
@@ -627,10 +626,12 @@ function App() {
 
                     <div className="program_item">
                       <span>18:00</span>
+
                       <div>
                         <strong>
                           Mehmonlarni kutib olish
                         </strong>
+
                         <small>
                           Samimiy kutib olish
                         </small>
@@ -639,10 +640,12 @@ function App() {
 
                     <div className="program_item">
                       <span>19:00</span>
+
                       <div>
                         <strong>
                           Bayram boshlanishi
                         </strong>
+
                         <small>
                           Musiqa va yaxshi kayfiyat
                         </small>
@@ -651,10 +654,12 @@ function App() {
 
                     <div className="program_item">
                       <span>20:00</span>
+
                       <div>
                         <strong>
                           Shirin lahzalar
                         </strong>
+
                         <small>
                           Suratlar va sovg‘alar
                         </small>
@@ -663,10 +668,12 @@ function App() {
 
                     <div className="program_item">
                       <span>22:00</span>
+
                       <div>
                         <strong>
                           Tug‘ilgan kun torti 🎂
                         </strong>
+
                         <small>
                           Tilaklar va bayramona kayfiyat
                         </small>
@@ -682,7 +689,6 @@ function App() {
                   />
 
                 </motion.section>
-
 
                 {/* ==================================================
                 FOOTER
